@@ -13,6 +13,6 @@ routes.put('/devs', DevController.update);
 //Aparentemente só dá pra ter um routes.get de um mesmo arquivo/controle. Cancelando o index, funciona.
 //Pode ser resolvido criando um novo controller apenas para o show.
 
-//routes.get('/search', SearchController.index);
+routes.get('/search', SearchController.index);
 
 module.exports = routes;
